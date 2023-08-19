@@ -1,0 +1,15 @@
+{
+    "kafka_bootstrap_servers": ["172.17.0.1:9092"],
+    "module_code": "prp-graphmalw",
+    "module_type": "preprocessor",
+    "module_otype": "file",
+    "module_indir": "/home/mta-smad/smad-3/data/modules/prp-graphmalw/input",
+    "module_outdir": "/home/mta-smad/smad-3/data/modules/prp-graphmalw/output",
+    "module_input_format": ["folderpath","filepath"],
+    "module_output_format": ["filepath","filepath"],
+    "publishing": {
+        "publish_file": true,
+        "chunk_size": 24570,
+        "after_publish": "delete"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "kafka_bootstrap_servers": ["172.17.0.1:9092"],
+    "module_code": "prp-graphmalw",
+    "module_otype": "file",
+    "module_indir": "/data/modules/prp-graphmalw/input",
+    "module_outdir": "/data/modules/prp-graphmalw/output",
+    "module_input_format": "filepath",
+    "module_output_format": ["filepath","filepath"]
+}
