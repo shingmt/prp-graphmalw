@@ -8,7 +8,7 @@
     "module_input_format": ["folderpath","filepath"],
     "module_output_format": ["filepath","filepath"],
     "publishing": {
-        "publish_file": true,
+        "publish_file": false,
         "chunk_size": 24570,
         "after_publish": "delete"
     }
