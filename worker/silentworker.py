@@ -138,6 +138,5 @@ class SilentWorker(SilentWorkerBase):
             #! Call __onFinishInfer__ when the analysis is done. This can be called from anywhere in your code. In case you need synchronous processing
             self.__onFinishInfer__(result, note)
 
-        except:
-            log('[x][SilentWorker][infer] Ouch', 'error')
-            return
+        except Exception as e:
+            log(f'[!][SilentWorker][infer] Failed with exception: {e}')
